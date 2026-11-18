@@ -106,3 +106,14 @@ header h1 {
 #sendBtn:hover {
     background-color: #2ea043;
 }
+
+#sendBtn:disabled {
+    background-color: #21262d;
+    color: #8b949e;
+    cursor: not-allowed;
+}
+
+.message.loading {
+    font-style: italic;
+    opacity: 0.75;
+}
